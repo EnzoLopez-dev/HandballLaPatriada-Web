@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
+	<meta charset="UTF-8">
+	<title>Handball La Patriada</title>
+	<!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- codigo de colores y estilos escrito por nosotros -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Tipografia openSans -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<!-- esto es para que el navegador se de cuenta cuando estamos en un celuar o tableta-->
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+</head>
+<!-- <body> Todo lo que se ve en la pantalla del usuario -->
+<body>
+<header>
+	<div class="container">
+		<div class="row top">
+			<!-- en esta linea cambiamos nuestro logo. -->
+			<div class="col-md-2"><a href="#home" data-ancla="home" class="off">
+				<img src="images/logopatriada.png" alt="" class="logo"></a></div>
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<ul class='botonera'>
+					<li><a href="#historia" data-ancla="historia">Historia</a></li>
+					<li><a href="#fotos" data-ancla="fotos">Galeria Fotografica</a></li>
+					<li><a href="#logros" data-ancla="logros">Logros</a></li>
+					<li><a href="#ubicacion" data-ancla="ubicacion">Ubicacion</a></li>
+					<li><a href="#redsocial" data-ancla="redsocial">Redes Sociales</a></li>
+
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="principal vertical-centered-text" id="home">
+	<div class="col-md-8 cta"><h1>HANDBALL LA PATRIADA</h1> 
+			<h4>Somos un club municipal, radicado en la ciudad de Florencio Varela que compite en Femebal</h4>
+			<p>Introduccion corta...</p>
+		</div>
+</div>
+
+<div class="historia azul" id="historia">
+	<div class="container">
+		<h2>Historia</h2>
+		<p>
+			Aca va la Historia del club
+		</p>
+	</div>
+</div>
+
+<div class="fotos" id="fotos">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Galeria Fotografica</h2>
+		</div>
+	</div>
+		<div class="row images slider">
+			<div class="col-md-12">
+			<h3> 2019 </h3>
+				<ul>
+					<li> <img src="images/2019/1.jpg"> </li>
+					<li> <img src="images/2019/2.jpg"> </li>
+					<li> <img src="images/2019/3.jpg"> </li>
+					<li> <img src="images/2019/4.jpg"> </li>
+				</ul>
+		</div>
+</div>
+
+<div class="logros azul" id="logros">
+	<div class="container">
+		<h2>Logros</h2>
+		<p>
+			Una lista o tabla con los años y los campeonatos, ascensos, podios, etc.
+		</p>
+	</div>
+</div>
+
+<div class="container ubicacion" id="ubicacion">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Nuestros polideportivos</h1>
+		</div>
+	</div>
+	<div class="row images">
+		<div class="col-md-6">
+			<p> Polideportivo La Patriada </p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.2750315434346!2d-58.28655098504477!3d-34.82417687670256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32bd43a43c891%3A0x9b8c2792fa33b0!2sPolideportivo%20Municipal%20La%20Patriada!5e0!3m2!1ses-419!2sar!4v1592175327809!5m2!1ses-419!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>	
+		</div>	
+		<div class="col-md-6">
+			<p> Polideportivo Don Orione </p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6551.090617339659!2d-58.241406525067546!3d-34.81737961348101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32900768cb2ab%3A0x741e0586bbb3024d!2sPolideportivo%20Municipal%20Don%20Orione!5e0!3m2!1ses-419!2sar!4v1592175097565!5m2!1ses-419!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+	</div>
+	
+</div>
+
+<footer>
+	<div class="container" id="redsocial">
+		<div class="row">
+			<div class="col-md-12">
+					<center> <h1>Nuestras redes sociales</h1> </center> <br><br>
+			</div>
+		</div>
+		<div class="row social">
+		<div class="col-3"></div>	
+					<div class="col-2">
+						<a target="_blank" href="https://www.youtube.com/channel/UC4YlJQT5ZfEQ4rGpe207fXQ"><img src="images/youtube.svg" alt=""></a></div>
+
+					<div class="col-2">
+						<a target="_blank" href="https://twitter.com/LaPatriada_Hbl"  ><img src="images/twitter.svg" alt=""></a></div>
+
+
+					<div class="col-2">
+						<a target="_blank" href="https://www.instagram.com/handballlapatriadaoficial/" ><img src="images/instagram.svg" alt=""></a></div>
+
+	</div>
+</footer>
+<!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script>
+	// A $( document ).ready() block.
+$(document).ready(function() {    
+$('.top a').click(function(e){
+        e.preventDefault();
+        var offset = $($(this).attr('href')).offset().top;
+        $('html, body').animate({scrollTop:offset}, 600);
+        return false;
+    });
+
+});
+	
+</script>
+</body>
+</html>
